@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+initial-scale=1">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <!-- for the remixicons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- for the fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+
+
+<body>
+  <header>
+    <a href="#" class="logo">Sahar<span>S.</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#aboutme">About me</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+
+    <div class="top-btnn">
+      <a href="#contact" class="h-btn">contact me</a>
+    </div>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="main-content" data-aos="fade-in">
+      <h1>Hi, there!</h1>
+      <h2>I'm <span class="input"></span></h2>
+      <p>This is my personal portfolio website.</p>
+      <p class="intro">I am a Freshman at the university of Sherbrooke, where I study Quantum Information Science. I am
+        passionate about technology, quantum computing and programming and I am always motivated to learn and grow while
+        exploring
+        new challenges and opportunities.</p>
+      <div class="media">
+        <a href="https://www.linkedin.com/in/saharsaoudi"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://github.com/sahar-saoudi"><i class="ri-github-fill"></i></a>
+        <a href="https://www.instagram.com/notsaharr/"><i class="ri-instagram-fill"></i></a>
+      </div>
+      <div class="main-btnn">
+        <a href="documents/CV.pdf" download="CV.pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+    <aside class="profile-image">
+      <img src="img/profile.jpg" alt="Profile Image">
+    </aside>
+  </section>
+
+  <!-- About me -->
+  <section class="aboutme" id="aboutme">
+    <div class="aboutme-img">
+      <img src="img/about-me.jpg">
+    </div>
+    <div class="aboutme-text">
+      <h3>I am a <span> Quantum Information Science student </span> and a <span> programmer </span></h3><br>
+      <ol>
+        <li> <strong> Nationality:</strong> Tunisian</li><br>
+        <li> <strong> Based in : </strong> Sherbrooke, QC, Canada</li><br>
+        <li> <strong> University : </strong> University of Sherbrooke</li><br>
+        <li> <strong> Field of studies : </strong> Quantum Information Science</li><br>
+        <li><strong> Current degree : </strong> Bachelor of Science (BSc)</li><br>
+        <li> <strong> Most Recent Degree: </strong> Tunisian Baccalaureat in the field of mathematics , 2022 ( graduated
+          with high honors) </li><br>
+        <li> <strong> Areas of knowledge: </strong> Python, C++, HTML, CSS, JavaScript, Latex, Git, Jupyter Notebook
+        </li><br>
+        <li> <strong> Hobbies : </strong> readding, coding, drawing and traveling </li><br>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section class="resume" id="resume">
+    <div class="resume-text">
+      <h4> My <span> Resume </span> </h4><br>
+    </div>
+
+    <div class="resume-content">
+      <div class="box">
+        <h5>Resume in English</h5><br>
+        <h6> Offering a glimpse into my skill set, experiences, and notable accomplishments. </h6><br>
+        <a href="documents/CV.pdf" download="English_CV.pdf">
+          Download now&nbsp;
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+
+      <div class="box">
+        <h5>Resume en Français</h5><br>
+        <h6> Voici un aperçu de mes compétences, de mes expériences et de mes réalisations les plus notables. </h6><br>
+        <a href="documents/CV_FR.pdf" download="French_CV.pdf"">
+          Download now&nbsp;
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+
+      <div class="box">
+        <h5>University Portfolio ( in French )</h5><br>
+        <h6> Un projet realisé dans le cadre du cours BSQ111 - Développement professionnel et personnel en sciences de l'information quantique. </h6><br>
+        <a href="https://www.usherbrooke.ca/monportfolio/view/view.php?t=41d906870273423a768d">
+          View now&nbsp;
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact me -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <br><br><br><br><br>
+      <h7> <span> Contact </span> Me </h7><br>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xzbllwde" method="post">
+        <input type="name" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+        <input type="submit" value="Send message" class="msg-btn">
+      </form>
+    </div>
+
+  </section>
+
+  <!-- download cv -->
+  <section class="cv" id="cv">
+
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <a href="#home" class="scroll">
+        <i class="ri-arrow-up-s-fill"></i>
+      </a>
+    </section>
+
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js-->
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: [" Sahar Saoudi", "a quantum computing enthusiast", "a quantum information science student"],
+        typeSpeed: 70,
+        backSpeed: 65,
+        loop: true
+      })
+    </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 1400,
+  });
+</script>
+
+
+</body>
+
+</html>
